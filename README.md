@@ -1,6 +1,4 @@
-# PMT-BARA (Putra Mulia Telecommunication - Technical Assessment)
-
-Proyek ini dibuat sebagai bagian dari technical test oleh **PT. Putra Mulia Telecommunication**.
+# PMT-BARA
 
 ## Tech Stack
 - Node.js: v24.21.0
@@ -27,4 +25,4 @@ Port aplikasi: `3000` | Port database: `5432`
 - Semua layanan terintegrasi dalam 1 network (`pmt-bara-network`).
 
 ---
-*Disiapkan untuk evaluasi teknikal PT. Putra Mulia Telecommunication.*
+*Proyek ini dibuat sebagai bagian dari technical test oleh **PT. Putra Mulia Telecommunication**..*
