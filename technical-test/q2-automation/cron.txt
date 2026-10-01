@@ -1,0 +1,2 @@
+# Cron schedule (WIB)
+0 8,12,15 * * * /usr/bin/python3 /mnt/d/Docker/PMT-BARA/technical-test/q2-automation/snapshot.py
