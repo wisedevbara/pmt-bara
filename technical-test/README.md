@@ -99,7 +99,7 @@ Unit tests for accumulator functions combined with static analysis rules prevent
 1. **Q4** — Inspect `q4-troubleshoot/fix.js`; confirm `reduce` uses `0` and returns `total`.
 2. **Q3** — Inspect `q3-sql/queries.sql`; validate each query statement.
 3. **Q1** — `npm install express` → `PORT=3001 node server.js` → `curl` POST, GET all, GET by subscriber.
-4. **Q2** — `cat q2-automation/cron.txt` → `python3 snapshot.py` (dry-run) → `python3 cleanup.py`.
+4. **Q2** — `cat q2-automation/cron.txt` → `python3 snapshot.py` (dry-run) → `python3 cleanup.py`. 
 
 ---
 
