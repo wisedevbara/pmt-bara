@@ -6,23 +6,23 @@
 - PostgreSQL: 16-alpine
 - Docker & Docker Compose
 
-## Struktur
-- `Dockerfile`: image aplikasi (node 24.21.0-alpine)
-- `docker-compose.yml`: integrasi 1 network (`pmt-bara-network`) dengan volume persisten
-- `.env`: kredensial database (tidak dipublikasikan, sudah di `.gitignore`)
+## Structure
+- `Dockerfile`: application image (node 24.21.0-alpine)
+- `docker-compose.yml`: integrated single network (`pmt-bara-network`) with persistent volumes
+- `.env`: database credentials (not published, excluded via `.gitignore`)
 - `.gitignore`: `.env`, `node_modules/`, `*.log`
 
-## Instruksi
+## Instructions
 ```bash
 docker-compose up --build
 ```
 
-Port aplikasi: `3000` | Port database: `5432`
+Application port: `3000` | Database port: `5432`
 
-## Catatan Penting
-- Kredensial tersimpan di `.env` dan TIDAK akan dipublikasikan ke repository publik (sesuai regulasi PDP).
-- Volume persisten (`postgres_data`, `node_modules`) menyimpan data di localhost.
-- Semua layanan terintegrasi dalam 1 network (`pmt-bara-network`).
+## Important Notes
+- Credentials are stored in `.env` and will NOT be published to any public repository (in compliance with data protection regulations).
+- Persistent volumes (`postgres_data`, `node_modules`) retain data on localhost.
+- All services are integrated within a single network (`pmt-bara-network`).
 
 ---
-*Proyek ini dibuat sebagai bagian dari technical test oleh **PT. Putra Mulia Telecommunication**..*
+*This project was developed as part of a technical assessment by **PT. Putra Mulia Telecommunication**.*
